@@ -4,6 +4,8 @@ import Loader from "./components/Loader";
 import ResultList from "./components/ResultList";
 import Search from "./components/Search";
 
+//Expand/Collapse icons
+
 function App() {
   const [name, setName] = useState('')
   const [results, setResults] = useState([])

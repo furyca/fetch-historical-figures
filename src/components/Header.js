@@ -1,4 +1,4 @@
-import logo from './book-icon.png'
+import logo from './icons/book-icon.png'
 
 const Header = () => {
   return (
