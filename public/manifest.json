@@ -1,0 +1,15 @@
+{
+  "short_name": "Historical Figures",
+  "name": "Historical Figures App",
+  "icons": [
+    {
+      "src": "book-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

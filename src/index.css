@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  background-color: rgb(237, 241, 214);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: auto;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  padding: 20px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  background-color: rgb(237, 241, 214);
+
+}
+
+ul li p {
+  color: rgb(64, 81, 59);
+}
+
+ul li:hover 
+{
+  background-color: rgb(215, 219, 193);
+}
+
+.flex {
+  display: flex;
+}
+
+.expand-button {
+  position: relative;
+  right: 60px;
+  height: 32px;
+  width: 32px;
+  background: url("./components/icons/expand.png");
+  border: 0px;
+}
+
+.collapse-button {
+  position: relative;
+  right: 60px;
+  height: 32px;
+  width: 32px;
+  background: url(./components/icons/collapse.png);
+  object-fit: contain;
+  border: 0px;
+}
+
+.collapsed {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.expanded {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.expanded h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  font-size: 1rem;
+  transition: font-size 1s;
+}
+
+h2 {
+  margin-top: 0;
+  padding: 20px;
+  color: rgb(64, 81, 59);
+}
+
+form {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form label {
+  padding: 40px 0 20px 0;
+  color: rgb(64, 81, 59);
+}
+
+form textarea {
+  padding: 20px 180px 0px 35px;
+  margin: 0 120px;
+  background-color: beige;
+  border-radius: 40px;
+  color: rgb(64, 81, 59);
+  border-color: rgb(64, 81, 59);
+  font-size: x-large;
+}
+
+form button {
+  background-color: rgb(157, 192, 139);
+  font-size: 1.25rem;
+  color: beige;
+  border-radius: 20px;
+  border-color: rgb(64, 81, 59);
+  padding: 20px 60px;
+  margin: 20px 0 60px 0;
+}
+
+form button:hover {
+  background-color: rgb(75, 104, 61);
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  padding-top: 20px;
+  background-color: rgb(157, 192, 139);
+  border-color: beige;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+}
+
+header img {
+  margin-left: 120px;
+  width: 64px;
+  height: 64px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading img {
+  width: 32px;
+  height: 32px;
+}
+
+h3 {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: rgb(64, 81, 59);
+}
+
+ul h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+}
