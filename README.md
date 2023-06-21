@@ -6,5 +6,6 @@ Historical Figures API: https://api-ninjas.com/api/historicalfigures
 
 ---
 
-![historical-figures](https://user-images.githubusercontent.com/69170957/228676983-d289c6df-83cb-4c66-ae6f-cbd69f937bc8.png)
-![historical-william](https://user-images.githubusercontent.com/69170957/228676987-1b12d08c-c7b2-40e5-be92-865332e92335.png)
+![ss1](https://github.com/furyca/fetch-historical-figures/assets/69170957/e21ba77a-bce9-49cc-b006-65148f6d5324)
+
+![ss2](https://github.com/furyca/fetch-historical-figures/assets/69170957/4fa8631d-0a0f-4f9c-8f95-08a2c2930111)
