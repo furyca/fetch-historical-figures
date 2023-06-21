@@ -1,0 +1,22 @@
+$header-color: #9dc08b;
+$text-color: #484848;
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: $header-color;
+  color: $text-color;
+  border-bottom: 3px solid gray;
+  box-shadow: 0 5px 5px gray;
+
+  img {
+    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}

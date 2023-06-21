@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import Header from "./components/Header";
-import Loader from "./components/Loader";
-import ResultList from "./components/ResultList";
-import Search from "./components/Search";
+import Header from "../Header/Header";
+import Loader from "../Loader/Loader";
+import ResultList from "../ResultList/ResultList.jsx";
+import Search from "../Search/Search";
+import style from './App.module.scss'
 
 function App() {
   const [name, setName] = useState('')
@@ -34,11 +35,10 @@ function App() {
   }, [name])
 
   const handleClick = (text) => {
-
     //To handle empty query related errors
     let trimmedText = text.trim()
     if (trimmedText.length < 1) {
-      return setName ('4894561984')
+      return
     }
 
     //To handle quotation mark related errors
@@ -53,6 +53,8 @@ function App() {
 
       const newText = textArray.join('')
 
+      console.log(newText);
+
       setName(newText)
     }
     else {
@@ -61,11 +63,14 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <Header />
-      <Search handleClick={handleClick}/>
-      {isLoading ? <Loader /> : <ResultList results={results} initialRender={initialRender} />}
-    </div>
+      <div className={style.container}>
+        <Search handleClick={handleClick}/>
+        {isLoading ? <Loader /> : <ResultList results={results} initialRender={initialRender} />}
+      </div>
+      
+    </>
   );
 }
 
