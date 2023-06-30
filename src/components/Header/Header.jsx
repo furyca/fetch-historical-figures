@@ -1,5 +1,4 @@
 import logo from "../../icons/book-icon.png";
-import style from "./Header.module.scss";
 
 const Header = () => {
   return (

@@ -1,11 +1,10 @@
 import Result from "../Result/Result";
 import uuid from "react-uuid";
-import style from './ResultList.module.scss'
 
 const ResultList = ({ results, initialRender }) => {
   return (
     <>
-      <ul className={style.list}>
+      <ul>
         {results.length < 1 && !initialRender.current ? (
           <h3>No Results Found</h3>
         ) : (

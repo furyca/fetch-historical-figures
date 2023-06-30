@@ -32,3 +32,9 @@ li {
     scale: .98;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .expanded {
+    line-height: 2;
+  }
+}
