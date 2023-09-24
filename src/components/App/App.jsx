@@ -20,7 +20,7 @@ function App() {
     else {
       const fetchFigures = async () => {
         setLoading(true)
-        const res = await fetch('https://cors-anywhere.herokuapp.com/https://api.api-ninjas.com/v1/historicalfigures?name=' + name, 
+        const res = await fetch('https://api.api-ninjas.com/v1/historicalfigures?name=' + name, 
         {headers: { 'X-Api-Key': process.env.REACT_APP_API_KEY}})
         const data = await res.json()
         setLoading(false)
